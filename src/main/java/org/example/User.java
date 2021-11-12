@@ -1,8 +1,11 @@
+package org.example;
+
 import com.opencsv.bean.CsvBindByName;
-@CsvBindByNameOrder({"User Id","First Name","Last Name","Version", "Insurance Company"})
+
+@CsvBindByNameOrder({"User Id", "First Name", "Last Name", "Version", "Insurance Company"})
 public class User {
 
-    public User(){
+    public User() {
 
     }
 
@@ -25,7 +28,6 @@ public class User {
 
     @CsvBindByName(column = "Version")
     private Integer version;
-
 
 
     @CsvBindByName(column = "Insurance Company")
