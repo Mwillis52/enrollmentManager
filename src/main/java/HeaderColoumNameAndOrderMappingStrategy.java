@@ -7,7 +7,7 @@ import com.opencsv.exceptions.CsvBadConverterException;
 import com.opencsv.exceptions.CsvRequiredFieldEmptyException;
 import java.util.Arrays;
 import org.apache.commons.lang3.StringUtils;
-
+//This was pulled from https://gist.github.com/ammmze/ec0334d107cb63c586ffd8fc51ec5757
 public class HeaderColoumNameAndOrderMappingStrategy<T> extends HeaderColumnNameMappingStrategy<T> {
 
         public HeaderColoumNameAndOrderMappingStrategy(Class<T> type) {
